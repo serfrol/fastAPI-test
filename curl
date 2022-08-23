@@ -1,0 +1,7 @@
+curl -X 'POST' \
+  'http://localhost:8000/get_iris' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "flower": "1,2,3,7"
+}'
